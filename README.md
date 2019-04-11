@@ -21,3 +21,4 @@ WingDing Winter 2019
 | Wed, Jun 12 | CH13: Integrating Storage Solutions       |    20 | ?????     |
 |             | CH14: Deploying Real-World Applications   |    13 |           |
 | ???         | Building a Raspberry Pi Kubernetes Cluster|     8 | ?????     |
+hello
