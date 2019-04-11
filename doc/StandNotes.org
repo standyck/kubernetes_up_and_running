@@ -37,6 +37,7 @@
     - Pods should not contain container that can be separate. For example, a MySQL and
       Database container shouldn't be in the same pod. This is different from docker
       compose where that is a common setup.
+    - Take a look at https://hub.kubeapps.com/ for helm charts
     * Here is a pod manifest
 
       #+BEGIN_SRC yaml :tangle kuard-pod.yaml
@@ -55,8 +56,6 @@
               volumeMounts:
                 - mountPath: "/data"
                   name: "kuard-data"
-                - mountPath: "/home"
-                  name: "stand-data"
               resources:
                 requests:
                   cpu: "500m"
